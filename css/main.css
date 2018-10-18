@@ -105,6 +105,11 @@ nav ul li a
   height: 500px;
 }
 
+#portfolio p
+{
+  line-height: 30px;
+}
+
 /********************* about Section *********************************/
 
 #about

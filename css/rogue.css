@@ -1,0 +1,189 @@
+/******************** Base Styles ************************/
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #000000;
+  padding: 20px;
+}
+/***************** Grid *********************************/
+
+.full-width
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width
+{
+  width: 600px;
+  float: left;
+}
+
+.third-width
+{
+  width: 400px;
+  float: left;
+}
+
+.two-third-width
+{
+  width: 800px;
+  float: left;
+}
+
+/********************* Header Section *********************************/
+
+header
+{
+  height: 110px;
+  vertical-align: middle;
+}
+
+header h1
+{
+  font-size: 30px;
+  line-height: 23px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+nav
+{
+  float: right;
+}
+
+nav ul li
+{
+  display: inline-block;
+}
+
+nav ul li a
+{
+  text-transform:uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 23px;
+  color: #77a466;
+  padding-left: 20px;
+
+}
+
+header span
+{
+  color:#000000;
+}
+
+#header-image img
+{
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+
+/********************* Welcome Section *********************************/
+
+#welcome
+{
+  height: 175px;
+}
+
+#welcome h3
+{
+  color: #77a466;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+#welcome p
+{
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  line-height: 25px;
+}
+
+/**************************** Tri Section ***********************/
+
+#tri
+{
+  height: 210px;
+  border-top: 2px solid #dedbdc;
+  border-bottom: 2px solid #dedbdc;
+}
+
+#tri .third-width
+{
+  width: 398px;
+
+}
+
+#tri h4
+{
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 20px 45px 0 30px;
+}
+
+#specials p
+{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 36px;
+  padding: 0 45px 0 30px;
+}
+
+#specials p a
+{
+  color: #77a466;
+  text-decoration: none;
+}
+
+#reviews
+{
+  border-left: 2px solid #dedbdc;
+  border-right: 2px solid #dedbdc;
+  height: 210px;
+}
+
+#reviews p
+{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 21px;
+  padding: 0 45px 0 30px;
+}
+
+#contact p
+{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  padding: 0 45px 0 30px;
+}
+
+
+/************************* Footer Section ***************************/
+
+footer
+{
+  height: 80px;
+}
+
+footer h2
+{
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer span
+{
+  color: #77a466;
+  font-family: 'Pinyon Script', cursive;
+  text-transform: none;
+}
