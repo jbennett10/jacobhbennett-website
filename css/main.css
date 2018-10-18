@@ -1,0 +1,162 @@
+/******************** Base Styles ************************/
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: #1f202b;
+}
+
+h3
+{
+  color: #fa0075;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/***************** Grid *********************************/
+
+.full-width
+{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width
+{
+  width: 600px;
+  float: left;
+}
+
+.third-width
+{
+  width: 400px;
+  float: left;
+}
+
+
+/********************* Header Section *********************************/
+
+header
+{
+  color: #ffffff;
+  font-size: 30px;
+
+}
+
+header h1
+{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+}
+
+header p
+{
+  padding-left: 45px;
+}
+
+nav
+{
+  float: right;
+}
+
+nav ul li
+{
+  display: inline-block;
+}
+
+nav ul li a
+{
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 0px 45px 0px 20px;
+}
+
+
+
+
+#header-image
+{
+  clear: left;
+  height: 725px;
+  background: url("../img/hero-background.png");
+  background-size: cover;
+
+}
+
+#header-image .half-width
+{
+  padding-top: 300px;
+}
+
+#header-image span
+{
+  color:#fa0075
+}
+
+
+/********************* Portfolio Section *********************************/
+
+
+#portfolio .half-width
+{
+  height: 500px;
+}
+
+/********************* about Section *********************************/
+
+#about
+{
+  clear: left;
+  background: url("../img/about-me.png");
+  background-size: cover;
+  height: 550px;
+  color: #1f202b;
+}
+
+#about .half-width
+{
+  height: 500px;
+}
+
+
+/********************* contact Section *********************************/
+#contact
+{
+  clear:left;
+  height: 400px;
+  text-align: center;
+}
+
+#contact a
+{
+    text-decoration:none;
+    color:#C49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul
+{
+    list-style: none;
+}
+#contact ul li
+{
+     display: inline-block;
+}
+#contact ul img
+{
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+
+
+
+/********************* footer Section *********************************/
+footer p
+{
+  text-align: center;
+}
